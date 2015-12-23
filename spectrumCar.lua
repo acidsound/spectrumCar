@@ -51,4 +51,4 @@ function parseHTTPReq (req)
   return string.match(req, "([A-Z]*) \/([^? ]*)")
 end
 
-function _(x) for v in pairs(x) do print(v) end
+function _(x) for v in pairs(x) do print(v) end end
