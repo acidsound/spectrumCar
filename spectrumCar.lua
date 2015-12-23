@@ -52,3 +52,5 @@ function parseHTTPReq (req)
 end
 
 function _(x) for v in pairs(x) do print(v) end end
+
+dofile("server.lc")

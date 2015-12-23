@@ -3,8 +3,73 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="user-scalable=yes,initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
 <title>SpectrumCar</title>
-<script type="text/javascript" src="mithril.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
+<style>
+#fwd, #bwd, #mid {
+  display: flex;
+  display: -webkit-flex;
+}
+div {
+  outline: aliceblue solid 1px;
+}
+#fwd {
+  background-color: indianred;
+  height: 33vh;
+}
+
+#mid {
+  background-color: khaki;
+  height: 33vh;
+}
+
+#bwd {
+  background-color: navy;
+  height: 33vh;
+}
+
+.left {
+  width: 33vw;
+}
+
+.middle {
+  width: 33vw;
+}
+
+.right {
+  width: 33vw;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+</style>
 </head>
 <body>
+<div id="panel">
+<div id="fwd">
+  <div class="left">
+  </div>
+  <div class="middle">
+  </div>
+  <div class="right">
+  </div>
+</div>
+<div id="mid">
+  <div class="left">
+  </div>
+  <div class="middle">
+  </div>
+  <div class="right">
+  </div>
+</div>
+<div id="bwd">
+  <div class="left">
+  </div>
+  <div class="middle">
+  </div>
+  <div class="right">
+  </div>
+</div>
+</div>
 </body>
